@@ -1,0 +1,34 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/NCBITaxon_imports.owl
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+
+#hosts
+http://purl.obolibrary.org/obo/NCBITaxon_9606 # homo sapiens
+
+http://purl.obolibrary.org/obo/NCBITaxon_33208 # Metazoa, metazoans, animals
+http://purl.obolibrary.org/obo/NCBITaxon_40674 # mammals
+
+http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+
+# http://purl.obolibrary.org/obo/NCBITaxon_131567 # cellular organisms
+
+http://purl.obolibrary.org/obo/NCBITaxon_11118 # Coronaviridae
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/NCBITaxon_10239 #Viruses 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

@@ -1,0 +1,18 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/RO_import.owl
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/RO_0002577 #system
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/RO_0002577 #system
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeAllIntermediates 
+
+[Source annotation URIs]
+includeAllAnnotationProperties
