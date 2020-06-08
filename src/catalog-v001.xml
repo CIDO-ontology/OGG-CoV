@@ -14,13 +14,11 @@
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="file:/C:/Users/pecca/Downloads/ogg-cv-v4.xml"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ogg/NCBITaxon_import_base.owl" uri="ogg-base.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1591058740200" name="http://purl.obolibrary.org/obo/ogg-bac/OGG_import.owl" uri="imports/OGG_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1591058740200" name="http://purl.obolibrary.org/obo/ogg-base.owl" uri="ogg-base.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1591058740200" name="duplicate:http://purl.obolibrary.org/obo/ogg-cv.owl/" uri="ogg-cv-alt.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1591058740200" name="duplicate:http://purl.obolibrary.org/obo/ogg-cv.owl/" uri="ogg-cv.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1591058740200" name="http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/NCBITaxon_imports.owl" uri="imports/NCBITaxon_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1591058740200" name="http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/PR_imports.owl" uri="imports/PR_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1591058740200" name="http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/RO_import.owl" uri="imports/RO_imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1591058740200" name="http://www.semanticweb.org/pecca/ontologies/2020/4/ogg-CoV" uri="ogg-CoV.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1591633529759" name="http://purl.obolibrary.org/obo/ogg-bac/OGG_import.owl" uri="imports/OGG_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1591633529759" name="http://purl.obolibrary.org/obo/ogg-base.owl" uri="ogg-base.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1591633529759" name="http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/NCBITaxon_imports.owl" uri="imports/NCBITaxon_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1591633529759" name="http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/PR_imports.owl" uri="imports/PR_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1591633529759" name="http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/RO_import.owl" uri="imports/RO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1591633529759" name="http://www.semanticweb.org/pecca/ontologies/2020/4/ogg-CoV" uri="ogg-CoV.owl"/>
     </group>
 </catalog>

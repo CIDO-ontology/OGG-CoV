@@ -111,6 +111,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
@@ -251,7 +257,9 @@
 
     <!-- http://purl.obolibrary.org/obo/OGG_20000010239 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_20000010239"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_20000010239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+    </owl:Class>
     
 
 
@@ -271,6 +279,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_000000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_20000010239"/>
+        <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
         <rdfs:label xml:lang="en">gene of coronavirus</rdfs:label>
     </owl:Class>
     
@@ -286,6 +295,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000220"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>A coronavirus gene that belongs to Severe acutre respiratory virus 2 (SARS-2) coronavirus.</dc:creator>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of SARS-CoV-2</rdfs:label>
     </owl:Class>
     
@@ -301,6 +312,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000223"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of SARS-CoV-2 Wuhan strain</rdfs:label>
     </owl:Class>
     
@@ -316,6 +328,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000218"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>A gene of Severe Acture Respiratory Syndrome (SARS) coronavirus.</dc:creator>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of SARS-CoV</rdfs:label>
     </owl:Class>
     
@@ -331,6 +345,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000216"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>A coronavirus gene of Middle-Eastern Respiratory Syndrome (MERS) coronavirus.</dc:creator>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of MERS-CoV</rdfs:label>
     </owl:Class>
     
@@ -340,6 +356,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_000000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>A coronavirus gene that produces nucleocapsid (N)  protein.</dc:creator>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus N gene</rdfs:label>
     </owl:Class>
     
@@ -355,6 +373,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label>gene of Human coronavirus 229E</rdfs:label>
     </owl:Class>
     
@@ -370,6 +389,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000236"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label>gene of Avian infectious bronchitis virus</rdfs:label>
     </owl:Class>
     
@@ -385,6 +405,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label>gene of Human coronavirus HKU1</rdfs:label>
     </owl:Class>
     
@@ -416,6 +437,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000212"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label>gene of Human coronavirus NL63</rdfs:label>
     </owl:Class>
     
@@ -436,6 +458,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_00000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>A coronavirus gene that produces hemagglutinin esterase (HE) protien.
+.</dc:creator>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label>coronavirus HE gene</rdfs:label>
     </owl:Class>
     
@@ -485,6 +510,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_00001217"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000083"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000233"/>
         <obo:IAO_00000117>Anthony Huffman</obo:IAO_00000117>
         <obo:IAO_00000119>https://www.ncbi.nlm.nih.gov/nuccore/MN908947</obo:IAO_00000119>
         <rdfs:label>ORF3a of SARS-CoV-2</rdfs:label>
@@ -2728,6 +2754,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus ns3a MERS gene</rdfs:label>
     </owl:Class>
     
@@ -2737,6 +2764,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus ns3b MERS gene</rdfs:label>
     </owl:Class>
     
@@ -2746,6 +2774,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000226">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus ns3d MERS gene</rdfs:label>
     </owl:Class>
     
@@ -2755,6 +2784,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000227">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus ORF8 SARS-CoV-2</rdfs:label>
     </owl:Class>
     
@@ -2764,6 +2794,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus 4a 229E gene</rdfs:label>
     </owl:Class>
     
@@ -2773,6 +2804,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus 4b 229E gene</rdfs:label>
     </owl:Class>
     
@@ -2783,7 +2815,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
         <dc:creator>Anthony Huffman</dc:creator>
-        <dc:description>A coronavirus gene that produces nucleocapsid (N) and membrane (M) protiens</dc:description>
+        <dc:description>A coronavirus gene that produces nucleocapsid (N) and membrane (M) proteins</dc:description>
         <rdfs:label xml:lang="en">coronavirus N-M gene</rdfs:label>
     </owl:Class>
     
@@ -2804,7 +2836,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
         <dc:creator>Anthony Huffman</dc:creator>
-        <rdfs:label xml:lang="en">coronavirus ORF3_SARS-CoV-2 gene</rdfs:label>
+        <rdfs:label xml:lang="en">coronavirus ORF3a_SARS-CoV-2 gene</rdfs:label>
     </owl:Class>
     
 
@@ -2823,6 +2855,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus ORF7_SARS-CoV-2 gene</rdfs:label>
     </owl:Class>
     
@@ -2832,6 +2865,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000236">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000089"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of AIBV</rdfs:label>
     </owl:Class>
     
@@ -2841,6 +2875,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000238">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000236"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/NC_001451.1</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of AIBV NCBI reference strain</rdfs:label>
     </owl:Class>
     
@@ -2857,7 +2893,19 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of Betacoronavirus 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000218"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/AY278741.1</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">genome of SARS-CoV Urbani strain</rdfs:label>
     </owl:Class>
     
 
@@ -2866,6 +2914,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:comment>A coronavirus gene that produces a spike protein.</rdfs:comment>
         <rdfs:label>coronavirus S gene</rdfs:label>
     </owl:Class>
@@ -2876,6 +2925,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label>coronavirus E gene</rdfs:label>
     </owl:Class>
     
@@ -2885,6 +2935,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>A coronavirus gene that produces  membrane (M) protein.</dc:creator>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label>coronavirus M gene</rdfs:label>
     </owl:Class>
     
@@ -2894,6 +2946,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label>coronavirus orf1ab gene</rdfs:label>
     </owl:Class>
     
@@ -2909,6 +2962,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000222"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of SARS-CoV-2 human/USA/NY-PV09189/2020</rdfs:label>
     </owl:Class>
     
@@ -2924,6 +2978,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of Human coronavirus HKU1 genotype A strain</rdfs:label>
     </owl:Class>
     
@@ -2933,6 +2988,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000013"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of Human coronavirus OC43 UK/London/2011 strain</rdfs:label>
     </owl:Class>
     
@@ -2948,6 +3004,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000213"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of Human coronavirus NL63 Reference strain</rdfs:label>
     </owl:Class>
     
@@ -2963,6 +3020,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000206"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of Human coronavirus 229E Reference strain</rdfs:label>
     </owl:Class>
     
@@ -2978,6 +3036,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000238"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of Avian infectious bronchitis virus Reference strain</rdfs:label>
     </owl:Class>
     
@@ -2987,6 +3046,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus sars3 gene</rdfs:label>
     </owl:Class>
     
@@ -2996,6 +3056,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus sars7b gene</rdfs:label>
     </owl:Class>
     
@@ -3005,6 +3066,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus sars7a gene</rdfs:label>
     </owl:Class>
     
@@ -3014,6 +3076,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus sars6 gene</rdfs:label>
     </owl:Class>
     
@@ -3023,6 +3086,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus sars8a gene</rdfs:label>
     </owl:Class>
     
@@ -3032,6 +3096,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus sars8b gene</rdfs:label>
     </owl:Class>
     
@@ -3051,6 +3116,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus ORF10 SARS-CoV-2 gene</rdfs:label>
     </owl:Class>
     
@@ -3060,6 +3126,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus ns3c MERS gene</rdfs:label>
     </owl:Class>
     
@@ -3069,6 +3136,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus NS2a_OC43 gene</rdfs:label>
     </owl:Class>
     
@@ -3078,6 +3146,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000204">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus NS5a_OC43 gene</rdfs:label>
     </owl:Class>
     
@@ -3087,6 +3156,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf4_HKU1 gene</rdfs:label>
     </owl:Class>
     
@@ -3096,6 +3166,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000206">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000208"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/NC_002645.1?report=genbank&amp;from=25686&amp;to=26855</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of HCoV-229E NCBI reference strain</rdfs:label>
     </owl:Class>
     
@@ -3105,6 +3177,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000089"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of HCoV-229E</rdfs:label>
     </owl:Class>
     
@@ -3114,6 +3187,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000089"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of HCoV-HKU1</rdfs:label>
     </owl:Class>
     
@@ -3123,6 +3197,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000211">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000210"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/AY597011</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of HCoV-HKU1 genotype A strain</rdfs:label>
     </owl:Class>
     
@@ -3132,6 +3208,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000212">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000089"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of HCoV-NL63</rdfs:label>
     </owl:Class>
     
@@ -3141,6 +3218,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000212"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/NC_005831.5</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of HCoV-NL63 NCBI reference strain</rdfs:label>
     </owl:Class>
     
@@ -3165,6 +3244,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000215"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/KU131570.1</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of HCoV-OC43 UK/London/2011 strain</rdfs:label>
     </owl:Class>
     
@@ -3183,6 +3264,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000216"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/NC_038294.1</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of Betacoronavirus England 1 strain</rdfs:label>
     </owl:Class>
     
@@ -3192,6 +3275,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000089"/>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of SARS-CoV</rdfs:label>
     </owl:Class>
     
@@ -3201,6 +3285,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000218"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/NC_004718</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of SARS-CoV NCBI reference strain</rdfs:label>
     </owl:Class>
     
@@ -3219,6 +3305,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000221">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000220"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/MT077125.1</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
     </owl:Class>
     
@@ -3228,6 +3316,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000220"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/MT371038.1</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
     </owl:Class>
     
@@ -3237,6 +3327,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000220"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/MN908947</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">genome of SARS-CoV-2 Wuhan strain</rdfs:label>
     </owl:Class>
     
@@ -3252,6 +3344,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000221"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">gene of SARS-CoV-2 human/ITA/INMI1/2020</rdfs:label>
     </owl:Class>
     
