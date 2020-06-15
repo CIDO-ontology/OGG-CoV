@@ -2906,8 +2906,7 @@
     <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_00001217"/>
-        <obo:IAO_0000115>A protein coding gene that produces a polyprotein product.</obo:IAO_0000115>
+        <obo:IAO_0000115>A polypeptide sequence that encodes a protein that is part a polyprotein product.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3660988/</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">polyprotein coding gene</rdfs:label>
@@ -2934,6 +2933,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
         <obo:IAO_00000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_00000119>
         <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:comment>A coding region of a polyprotein that encodes coronavirus orf1ab replicase nsp2.</rdfs:comment>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp2</rdfs:label>
     </owl:Class>
     
@@ -2943,7 +2943,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
-        <obo:IAO_0000115>A coding region of a polyprotein that encodes betacoronavirus nsp3 from orf1ab</obo:IAO_0000115>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus orf1ab nsp3 from orf1ab</obo:IAO_0000115>
+        <obo:IAO_0000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp3</rdfs:label>
     </owl:Class>
@@ -2966,7 +2967,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000262">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
-        <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase NSP5.</obo:IAO_0000115>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus orf1ab replicase nsp5</obo:IAO_0000115>
+        <obo:IAO_0000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp5</rdfs:label>
     </owl:Class>
@@ -2977,7 +2979,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000263">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
-        <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase nsp6</obo:IAO_0000115>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus orf1ab replicase nsp6</obo:IAO_0000115>
+        <obo:IAO_0000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp6</rdfs:label>
     </owl:Class>
@@ -2988,8 +2991,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
-        <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase NSP7</obo:IAO_0000115>
-        <obo:IAO_0000119>http://pfam.xfam.org/family/PF08716</obo:IAO_0000119>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus orf1ab replicase nsp7</obo:IAO_0000115>
+        <obo:IAO_0000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp7</rdfs:label>
         <rdf-schema:seeAlso>Coronavirus replicase NSP7</rdf-schema:seeAlso>
@@ -3001,8 +3004,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
-        <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase 8.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://pfam.xfam.org/family/PF12093</obo:IAO_0000119>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus orf1ab replicase nsp8</obo:IAO_0000115>
+        <obo:IAO_0000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp8</rdfs:label>
         <rdf-schema:seeAlso>Coronavirus replicase NSP8</rdf-schema:seeAlso>
@@ -3026,7 +3029,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
-        <obo:IAO_0000119>http://pfam.xfam.org/family/PF09401</obo:IAO_0000119>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus orf1ab replicase nsp10</obo:IAO_0000115>
+        <obo:IAO_0000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp10</rdfs:label>
         <rdf-schema:seeAlso>Coronavirus RNA synthesis protein NSP10</rdf-schema:seeAlso>
@@ -3038,7 +3042,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000268">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
-        <obo:IAO_0000115>A coding region of a polyprotein that encodes Coronavirus guanine-N7 methyltransferase</obo:IAO_0000115>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus guanine-N7 methyltransferase from coronavirus orf1ab.</obo:IAO_0000115>
         <obo:IAO_0000119>http://pfam.xfam.org/family/PF06471</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp11</rdfs:label>
@@ -3052,7 +3056,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000269">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
         <obo:IAO_00000119>http://pfam.xfam.org/family/PF06478</obo:IAO_00000119>
-        <obo:IAO_0000115>A coding region of a polyprotein that encodes Coronavirus RNA-dependent RNA polymerase.</obo:IAO_0000115>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus RNA-dependent RNA polymerase from coronavirus orf1ab replicase.</obo:IAO_0000115>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp12</rdfs:label>
         <rdf-schema:seeAlso>Coronavirus RNA-dependent RNA polymerase</rdf-schema:seeAlso>
@@ -3064,7 +3068,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000270">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
-        <obo:IAO_0000115>A coding region of a polyprotein that encodes betacoronavirus nsp13 of orf1ab.</obo:IAO_0000115>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus orf1ab replicase nsp13 of orf1ab.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp13</rdfs:label>
     </owl:Class>
@@ -3075,7 +3080,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000271">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
-        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus replicase nsp14 from in coronavirus orf1ab.</obo:IAO_0000115>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus orf1ab replicase nsp14</obo:IAO_0000115>
+        <obo:IAO_0000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp14</rdfs:label>
     </owl:Class>
@@ -3153,7 +3159,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
         <obo:IAO_0000115>A coronavirus gene that encodes coornavirus replicase orf1ab.</obo:IAO_0000115>
         <dc:creator>Anthony Huffman</dc:creator>
-        <rdfs:label>coronavirus replicase orf1ab gene</rdfs:label>
+        <rdfs:label>coronavirus orf 1ab gene</rdfs:label>
     </owl:Class>
     
 
