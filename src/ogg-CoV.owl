@@ -257,9 +257,7 @@
 
     <!-- http://purl.obolibrary.org/obo/OGG_20000010239 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_20000010239">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_20000010239"/>
     
 
 
@@ -509,7 +507,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_00001217"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000083"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000233"/>
         <obo:IAO_00000117>Anthony Huffman</obo:IAO_00000117>
         <obo:IAO_00000119>https://www.ncbi.nlm.nih.gov/nuccore/MN908947</obo:IAO_00000119>
@@ -552,7 +549,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_00001217"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000083"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000234"/>
         <obo:IAO_00000117>Anthony Huffman</obo:IAO_00000117>
         <obo:IAO_00000119>https://www.ncbi.nlm.nih.gov/nuccore/MN908947</obo:IAO_00000119>
@@ -567,7 +563,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_00001217"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000083"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000235"/>
         <obo:IAO_00000117>Anthony Huffman</obo:IAO_00000117>
         <obo:IAO_00000119>https://www.ncbi.nlm.nih.gov/nuccore/MN908947</obo:IAO_00000119>
@@ -582,7 +577,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_00001217"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000083"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000235"/>
         <obo:IAO_00000117>Anthony Huffman</obo:IAO_00000117>
         <obo:IAO_00000119>https://www.ncbi.nlm.nih.gov/nuccore/MN908947</obo:IAO_00000119>
@@ -1169,7 +1163,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_00001217"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_00000083"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000232"/>
         <obo:IAO_00000117>Anthony Huffman</obo:IAO_00000117>
         <obo:IAO_00000119>https://www.ncbi.nlm.nih.gov/nuccore/NC_005831.4</obo:IAO_00000119>
@@ -2910,6 +2903,218 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_00001217"/>
+        <obo:IAO_0000115>A protein coding gene that produces a polyprotein product.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3660988/</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">polyprotein coding gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_00000119>http://pfam.xfam.org/family/PF11501</obo:IAO_00000119>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase NSP1</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp1</rdfs:label>
+        <rdf-schema:seeAlso>Betacoronavirus replicase NSP1</rdf-schema:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_00000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_00000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes betacoronavirus nsp3 from orf1ab</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_00000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_00000119>
+        <obo:IAO_0000115>A coding region of a polyprotein that encode coronavirus orf1ab replicase nsp4</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase NSP5.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase nsp6</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase NSP7</obo:IAO_0000115>
+        <obo:IAO_0000119>http://pfam.xfam.org/family/PF08716</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp7</rdfs:label>
+        <rdf-schema:seeAlso>Coronavirus replicase NSP7</rdf-schema:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase 8.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://pfam.xfam.org/family/PF12093</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp8</rdfs:label>
+        <rdf-schema:seeAlso>Coronavirus replicase NSP8</rdf-schema:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp9</rdfs:label>
+        <rdf-schema:seeAlso>Coronavirus replicase NSP9</rdf-schema:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000119>http://pfam.xfam.org/family/PF09401</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp10</rdfs:label>
+        <rdf-schema:seeAlso>Coronavirus RNA synthesis protein NSP10</rdf-schema:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes Coronavirus guanine-N7 methyltransferase</obo:IAO_0000115>
+        <obo:IAO_0000119>http://pfam.xfam.org/family/PF06471</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp11</rdfs:label>
+        <rdfs:seeAlso>Coronavirus guanine-N7 methyltransferase</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_00000119>http://pfam.xfam.org/family/PF06478</obo:IAO_00000119>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes Coronavirus RNA-dependent RNA polymerase.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp12</rdfs:label>
+        <rdf-schema:seeAlso>Coronavirus RNA-dependent RNA polymerase</rdf-schema:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes betacoronavirus nsp13 of orf1ab.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes coronavirus replicase nsp14 from in coronavirus orf1ab.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_00000119>https://link.springer.com/chapter/10.1007/3-540-26765-4_3</obo:IAO_00000119>
+        <obo:IAO_0000115>A coding region of a polyprotein that encode coronavirus orf1ab replicase nsp15.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274"/>
+        <obo:IAO_0000115>A coding region of a polyprotein that encodes Coronavirus 2&apos;-O-methyltransferase.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://pfam.xfam.org/family/PF06460</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp16</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000241"/>
+        <rdfs:label xml:lang="en">polyprotein coding gene region</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000084">
@@ -2946,8 +3151,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_000000001"/>
+        <obo:IAO_0000115>A coronavirus gene that encodes coornavirus replicase orf1ab.</obo:IAO_0000115>
         <dc:creator>Anthony Huffman</dc:creator>
-        <rdfs:label>coronavirus orf1ab gene</rdfs:label>
+        <rdfs:label>coronavirus replicase orf1ab gene</rdfs:label>
     </owl:Class>
     
 
@@ -3485,6 +3691,26 @@
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000203"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000204"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov.owl#ogg-cov_00000205"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000258"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000259"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000260"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000261"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000262"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000263"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000264"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000265"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000266"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000267"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000268"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000269"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000270"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000271"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg-cov#OGG-CoV0000272"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
