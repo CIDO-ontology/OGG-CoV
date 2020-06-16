@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/pecca/ontologies/2020/4/ogg-CoV#"
-     xml:base="http://www.semanticweb.org/pecca/ontologies/2020/4/ogg-CoV"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ogg/ogg-cov/ogg-cov.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ogg/ogg-cov/ogg-cov.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -13,13 +13,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdf-schema="http://www.w3.org/20000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/pecca/ontologies/2020/4/ogg-cov">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ogg/ogg-cov/ogg-cov.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/NCBITaxon_imports.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/OGG_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/OGG_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/PR_imports.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/RO_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/NCBITaxon_imports.owl"/>
-        <owl:imports rdf:resource="http://www.semanticweb.org/pecca/ontologies/2020/4/ogg-cov"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/RO_imports.owl"/>
         <dc:creator xml:lang="en">Anthony Huffman</dc:creator>
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
         <dc:creator xml:lang="en">Lauren Austin</dc:creator>
@@ -249,21 +247,30 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGG_10000010239 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_10000010239"/>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </rdf:Description>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGG_20000010239 -->
+    <!-- http://purl.obolibrary.org/obo/OGG_1000010239 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_20000010239"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_1000010239"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_2000010239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000010239"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/SO_00001217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_00001217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
         <obo:IAO_00000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein coding gene</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
@@ -276,7 +283,7 @@
     <!-- http://purl.obolibrary.org/obo/ogg-cov_000000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_000000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_20000010239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000010239"/>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
         <rdfs:label xml:lang="en">gene of coronavirus</rdfs:label>
     </owl:Class>
@@ -467,7 +474,7 @@
     <!-- http://purl.obolibrary.org/obo/ogg-cov_00000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_00000089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_10000010239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_1000010239"/>
         <obo:IAO_00000117>Anthony Huffman</obo:IAO_00000117>
         <rdfs:label>genome of coronavirus</rdfs:label>
     </owl:Class>
@@ -2920,7 +2927,7 @@
         <obo:IAO_00000119>http://pfam.xfam.org/family/PF11501</obo:IAO_00000119>
         <obo:IAO_0000115>A coding region of a polyprotein that encodes Betacoronavirus replicase NSP1</obo:IAO_0000115>
         <dc:creator>Anthony Huffman</dc:creator>
-        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp1</rdfs:label>
+        <rdfs:label xml:lang="en">coronavirus orf1ab replicase nsp1 coding sequence</rdfs:label>
         <rdf-schema:seeAlso>Betacoronavirus replicase NSP1</rdf-schema:seeAlso>
     </owl:Class>
     

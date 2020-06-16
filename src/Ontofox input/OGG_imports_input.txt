@@ -1,15 +1,16 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/ogg/ogg-cv/imports/OGG_import.owl
+http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/OGG_imports.owl
 
 [Source ontology]
 OGG
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OGG_2000010239 #gene of virus
+http://purl.obolibrary.org/obo/OGG_1000010239 #Viruses
+
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OGG_0000000002 #gene
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 [Source term retrieval setting]
 includeAllIntermediates
