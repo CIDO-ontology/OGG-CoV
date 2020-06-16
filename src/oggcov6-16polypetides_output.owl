@@ -1,0 +1,3432 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Ogg-cov0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Ogg-cov000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Ogg-cov000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000321">
+        <rdfs:label>leader protein of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476805</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000258</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000322">
+        <rdfs:label>nsp2 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1802476806</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000323">
+        <rdfs:label>nsp3 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476807</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000260</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000324">
+        <rdfs:label>nsp4 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476808</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000325">
+        <rdfs:label>3C-like proteinase of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476809</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000326">
+        <rdfs:label>nsp6 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476810</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000327">
+        <rdfs:label>nsp7 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476811</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000328">
+        <rdfs:label>nsp8 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476812</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000329">
+        <rdfs:label>nsp9 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476813</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000330">
+        <rdfs:label>nsp10 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1802476814</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000331">
+        <rdfs:label>nsp12 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476815</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000332">
+        <rdfs:label>helicase of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476816</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000333">
+        <rdfs:label>nsp14 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000271</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1802476817</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000334">
+        <rdfs:label>nsp15 of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476818</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000335">
+        <rdfs:label>3’-O-ribose methyltransferase of orf1abfrom SARS-CoV-2 Wuhan strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476819</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000336">
+        <rdfs:label>nsp1-ppla/pp1ab of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:34555774</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000258</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000337">
+        <rdfs:label>PL2-PRO cleavage product; nsp2-ppla/pp1ab of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:34555775</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000338">
+        <rdfs:label>nsp3-pp1a/pp1ab of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:34555776</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000260</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000339">
+        <rdfs:label>nsp4-ppla/pp1ab of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:34555778</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000340">
+        <rdfs:label>nsp5-ppa1a/pp1ab (3CL-PRO) of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:29837498</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000341">
+        <rdfs:label>nsp6-pp1a/pp1ab (TM3) of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:29837499</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000342">
+        <rdfs:label>nsp7-pp1a/pp1ab of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:29837500</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000343">
+        <rdfs:label>nsp8-pp1a/pp1ab of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:29837501</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000344">
+        <rdfs:label>nsp9-pp1a/pp1ab of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:29837502</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000345">
+        <rdfs:label>nsp10-pp1a/pp1ab of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:29837503</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000346">
+        <rdfs:label>nsp12-pp1ab (RdRp) of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000268</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:29837504</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000347">
+        <rdfs:label>nsp13-pp1ab (ZD, NTPase/HEL; RNA 5&#39; -triphosphatase of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:29837505</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000348">
+        <rdfs:label>nsp14-pp1ab (nuclease ExoN homolog) of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:29837506</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000349">
+        <rdfs:label>nsp15-pp1ab (endoRNAse) of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:29837507</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000271</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000350">
+        <rdfs:label>2&#39;-O-ribose methyltransferase (2&#39;-o&#39;-MT) of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:30133975</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000351">
+        <rdfs:label>nsp11-p11-pp1a of sars1from SAS CoV Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:34555777</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000268</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000352">
+        <rdfs:label>nsp1 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000258</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000353">
+        <rdfs:label>nsp2 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000354">
+        <rdfs:label>nsp3 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000260</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000355">
+        <rdfs:label>nsp4 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000356">
+        <rdfs:label>nsp5 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000357">
+        <rdfs:label>nsp6 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000358">
+        <rdfs:label>nsp7 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000359">
+        <rdfs:label>nsp8 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000360">
+        <rdfs:label>nsp9 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000361">
+        <rdfs:label>nsp10 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000362">
+        <rdfs:label>nsp11 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000268</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000363">
+        <rdfs:label>nsp12 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000364">
+        <rdfs:label>nsp13 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000365">
+        <rdfs:label>nsp14 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000271</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000366">
+        <rdfs:label>nsp15 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000367">
+        <rdfs:label>nsp16 of orf1abfrom HCoV HKU1 genotype A strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:51235385</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000368">
+        <rdfs:label>nsp1 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000258</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000369">
+        <rdfs:label>nsp2 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000370">
+        <rdfs:label>nsp3 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000260</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000371">
+        <rdfs:label>nsp4 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000372">
+        <rdfs:label>3C-like proteinase of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000373">
+        <rdfs:label>nsp6 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000374">
+        <rdfs:label>nsp7 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000375">
+        <rdfs:label>nsp8 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000376">
+        <rdfs:label>nsp9 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000377">
+        <rdfs:label>nsp10 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000378">
+        <rdfs:label>nsp11 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000268</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000379">
+        <rdfs:label>nsp12 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000380">
+        <rdfs:label>nsp13 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000381">
+        <rdfs:label>nsp14 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000271</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000382">
+        <rdfs:label>nsp15 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000383">
+        <rdfs:label>nsp16 of orf1a/orf1bfrom HCoV NL63 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:51235392</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000384">
+        <rdfs:label>nsp3 of pp1abfrom HCoV OC43 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000260</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000385">
+        <rdfs:label>nsp4 of pp1abfrom HCoV OC43 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000386">
+        <rdfs:label>nsp5 of pp1abfrom HCoV OC43 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000387">
+        <rdfs:label>nsp7 of pp1abfrom HCoV OC43 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000388">
+        <rdfs:label>nsp8 of pp1abfrom HCoV OC43 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000389">
+        <rdfs:label>nsp9 of pp1abfrom HCoV OC43 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000390">
+        <rdfs:label>NSP10 of pp1abfrom HCoV OC43 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000391">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000393">
+        <rdfs:label>NSP11/nsp15 of pp1abfrom HCoV OC43 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000394">
+        <rdfs:label>NSP13/nsp16 of pp1abfrom HCoV OC43 Reference strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:998640292</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000395">
+        <rdfs:label>nsp1, replicase polyprotein N-term from Coronavirus nsp1 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000258</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000396">
+        <rdfs:label>nsp2 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000397">
+        <rdfs:label>nsp3 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000260</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000398">
+        <rdfs:label>Corona_NSP4_C of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000399">
+        <rdfs:label>Peptiase_C30 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000400">
+        <rdfs:label>nsp6 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000401">
+        <rdfs:label>nsp7 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000402">
+        <rdfs:label>nsp8 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000403">
+        <rdfs:label>nsp9 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000404">
+        <rdfs:label>NSP10 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000268</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000406">
+        <rdfs:label>Corona_Rpol_N of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000407">
+        <rdfs:label>heilcase of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000408">
+        <rdfs:label>nsp14 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000271</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000409">
+        <rdfs:label>NSP11 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000410">
+        <rdfs:label>NSP13 of HCoV229Egp1from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000411">
+        <rdfs:label>nsp2 of IBVgp1from IBV Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1489740</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000412">
+        <rdfs:label>nsp3 of IBVgp1from IBV Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1489740</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000413">
+        <rdfs:label>nsp4 of IBVgp1from IBV Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1489740</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000414">
+        <rdfs:label>nsp5 of IBVgp1from IBV Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1489740</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000415">
+        <rdfs:label>nsp6 of IBVgp1from IBV Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1489740</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000416">
+        <rdfs:label>nsp7 of IBVgp1from IBV Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1489740</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000417">
+        <rdfs:label>nsp8 of IBVgp1from IBV Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1489740</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000418">
+        <rdfs:label>nsp9 of IBVgp1from IBV Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1489740</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000419">
+        <rdfs:label>nsp10 of IBVgp1from IBV Reference Strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1489740</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000420">
+        <rdfs:label>RNase_E_G, Ribonuclease E/G of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000342</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000421">
+        <rdfs:label>Viral protease of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000343</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000422">
+        <rdfs:label>Corana_NSP4_C of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000344</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000423">
+        <rdfs:label>Peptiase_C30 of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000345</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000424">
+        <rdfs:label>nsp7 of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000346</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000425">
+        <rdfs:label>nsp8 of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000347</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000426">
+        <rdfs:label>nsp9 of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000348</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000427">
+        <rdfs:label>NSP10 of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000349</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000428">
+        <rdfs:label>NSP11 of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000350</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000429">
+        <rdfs:label>Corona_RPol_N; of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000351</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000430">
+        <rdfs:label>NSP13 of orf1abfrom MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000352</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000431">
+        <rdfs:label>nsp3 of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000432">
+        <rdfs:label>Corona+NSP4_C of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000433">
+        <rdfs:label>Peptidase_C30 of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000434">
+        <rdfs:label>nsp7 of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000435">
+        <rdfs:label>nsp8 of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000436">
+        <rdfs:label>nsp9 of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000437">
+        <rdfs:label>NSP10 of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000438">
+        <rdfs:label>Corona_Rpol_N of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000439">
+        <rdfs:label>DNA2 (replicase) of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000440">
+        <rdfs:label>NSP11 of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000441">
+        <rdfs:label>NSP13 of ORF1abfrom Human betacoronavirus 2c Jordan-N3/2012</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000442">
+        <rdfs:label>Nsp1 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000258</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000443">
+        <rdfs:label>nsp2 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000444">
+        <rdfs:label>nsp3 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000445">
+        <rdfs:label>Corona+NSP4_C of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000446">
+        <rdfs:label>Peptidase_C30 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000447">
+        <rdfs:label>nsp7 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000448">
+        <rdfs:label>nsp8 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000449">
+        <rdfs:label>nsp9 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000450">
+        <rdfs:label>NSP10 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000451">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000268</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000452">
+        <rdfs:label>Corona_Rpol_N of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000453">
+        <rdfs:label>DNA2 (replicase) of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000454">
+        <rdfs:label>nsp14 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000271</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000455">
+        <rdfs:label>NSP11/nsp15 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000456">
+        <rdfs:label>NSP13/nsp16 of ORF 1abfrom SARS Urbani strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000457">
+        <rdfs:label>nsp1 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000258</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1802476805</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000458">
+        <rdfs:label>nsp2 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476806</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000459">
+        <rdfs:label>nsp3 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476807</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000260</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000460">
+        <rdfs:label>nsp4 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476808</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000461">
+        <rdfs:label>3C-like proteinase of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476809</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000462">
+        <rdfs:label>nsp6 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476810</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000463">
+        <rdfs:label>nsp7 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1802476811</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000464">
+        <rdfs:label>nsp8 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1802476812</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000465">
+        <rdfs:label>nsp9 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476813</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000466">
+        <rdfs:label>NSP10 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1802476814</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000467">
+        <rdfs:label>Corona_Rpol_N of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000468">
+        <rdfs:label>DNA2 helicase of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000469">
+        <rdfs:label>NSP11 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000470">
+        <rdfs:label>endoRNAse of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000271</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000471">
+        <rdfs:label>2’-O-ribose methyltransferase of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476817</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000472">
+        <rdfs:label>nsp1 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000258</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476805</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000473">
+        <rdfs:label>nsp2 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476806</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000259</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000474">
+        <rdfs:label>nsp3 of ORF 1abfrom SARS-CoV-2 human/ITA/INMI1/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476807</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000260</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000475">
+        <rdfs:label>nsp4 of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476808</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000476">
+        <rdfs:label>3C-like proteinase of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476809</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000477">
+        <rdfs:label>nsp6 of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476810</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000478">
+        <rdfs:label>nsp7 of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476811</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000479">
+        <rdfs:label>nsp8 of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>NCBI Gene ID:1802476812</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000480">
+        <rdfs:label>nsp9 of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476813</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000481">
+        <rdfs:label>nsp10 of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476814</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000482">
+        <rdfs:label>RNA-dependent RNA polymerase of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476815</rdfs:comment>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000269</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000483">
+        <rdfs:label>helicase of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476816</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000484">
+        <rdfs:label>3’-to-5’ exonuclase / nsp11 of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000268</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000485">
+        <rdfs:label>endoRNAse of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476817</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000271</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000486">
+        <rdfs:label>2’-O-ribose methyltransferase of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:1802476819</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000487">
+        <rdfs:label>nsp15 (NendoU_cv_Nsp15-like) of ORF 1abfrom SARS-CoV-2 human/USA/NY-PV09189/2020 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NCBI Gene ID:1802476818</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000488">
+        <rdfs:label>nsp3 of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000261</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000489">
+        <rdfs:label>Corana_NSP4_C of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000262</obo:IAO_0000115>
+        <rdfs:comment>NCBI Gene ID:4</rdfs:comment>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000490">
+        <rdfs:label>Peptiase_C30 of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000263</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000491">
+        <rdfs:label>nsp7 of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000264</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000492">
+        <rdfs:label>nsp8 of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000265</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000493">
+        <rdfs:label>nsp9 of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000266</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000494">
+        <rdfs:label>NSP10 of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000267</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000495">
+        <rdfs:label>Corona_Rpol_N of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000268</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000496">
+        <rdfs:label>DNA2 (replicase) of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000270</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000497">
+        <rdfs:label>UvrD_C_2 of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000271</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000498">
+        <rdfs:label>NSP11 of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000272</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov000499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov000499">
+        <rdfs:label>NSP13 of ORF 1abfrom MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/Ogg-cov0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ogg-cov0000278"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A polypetide sequence of a coronavirus replicase ogg-cov0000273</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ogg-cov_0000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ogg-cov_0000158"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+
