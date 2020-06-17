@@ -28,7 +28,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">Coronavirus Genes and Genomes</dc:subject>
         <dc:title xml:lang="en">OGG_CoV: Ontology of Coronavirus Genes and Genomes</dc:title>
-        <owl:versionInfo xml:lang="en">Version Release: 1.2.05</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version Release: 1.2.06</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3452,6 +3452,7 @@
     <!-- http://purl.obolibrary.org/obo/OGG_CoV0000241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000839"/>
         <obo:IAO_0000115>A polypeptide sequence that encodes a protein that is part a polyprotein product.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3660988/</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
