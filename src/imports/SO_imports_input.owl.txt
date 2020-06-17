@@ -1,20 +1,19 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/PR_imports.owl
+
 
 [Source ontology]
-PR
+SO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/PR_000050262 #severe acute respiratory syndrome coronavirus 2 protein
-includeAllChildren
+http://purl.obolibrary.org/obo/SO_0000839
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/PR_000000001 #protein
+http://purl.obolibrary.org/obo/SO_0001411
 
 [Source term retrieval setting]
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAnnotationProperties
 
 [Source annotation URIs to be excluded]
