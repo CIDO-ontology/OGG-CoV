@@ -1938,7 +1938,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_1000010239"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_100010239"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -2035,14 +2035,14 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGG_1000010239 -->
+    <!-- http://purl.obolibrary.org/obo/OGG_100010239 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_1000010239">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_100010239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_200010239"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_20010239"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2060,9 +2060,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGG_200010239 -->
+    <!-- http://purl.obolibrary.org/obo/OGG_20010239 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_200010239">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_20010239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2213,8 +2213,8 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ogg.owl">
         <owl:versionInfo xml:lang="en">Vision Release: 1.0.59</owl:versionInfo>
         <dc:description xml:lang="en">OGG is a biological ontology in the area of genes and genomes. OGG uses the Basic Formal Ontology (BFO) as its upper level ontology. This OGG document contains the genes and genomes of a list of selected organisms, including human, two viruses (HIV and influenza virus), and bacteria (B. melitensis strain 16M, E. coli strain K-12 substrain MG1655, M. tuberculosis strain H37Rv, and P. aeruginosa strain PAO1). More OGG information for other organisms (e.g., mouse, zebrafish, fruit fly, yeast, etc.) may be found in other OGG subsets. </dc:description>
-        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <foaf:mbox rdf:resource="mailto:yongqunh@med.umich.edu"/>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
     </rdf:Description>
 </rdf:RDF>
 
