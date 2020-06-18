@@ -9,6 +9,8 @@ http://purl.obolibrary.org/obo/SO_0000839
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/SO_0001411
+http://purl.obolibrary.org/obo/so#sequence_of
+
 
 [Source term retrieval setting]
 includeAllIntermediates
