@@ -1,14 +1,14 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/NCIT_imports.owl
+http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/IAO_imports.owl
 
 [Source ontology]
-NCIT
+IAO-Onto-Meta
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/NCIT_C153329
+http://purl.obolibrary.org/obo/IAO_0000027
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/NCIT_C20181
+http://purl.obolibrary.org/obo/IAO_0000030
 
 [Source term retrieval setting]
 includeAllIntermediates

@@ -10,10 +10,12 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdf-schema="http://www.w3.org/20000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ogg/OGG_CoV.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/IAO_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/NCBITaxon_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/OGG_imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogg/ogg-cov/imports/PR_imports.owl"/>
@@ -28,7 +30,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">Coronavirus Genes and Genomes</dc:subject>
         <dc:title xml:lang="en">OGG_CoV: Ontology of Coronavirus Genes and Genomes</dc:title>
-        <owl:versionInfo xml:lang="en">Version Release: 1.2.07</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Version Release: 1.2.08</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -394,6 +396,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </rdf:Description>
     
 
 
@@ -3474,7 +3484,7 @@
     <!-- http://purl.obolibrary.org/obo/OGG_CoV0000241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C153329"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A genetic coding sequence of protein that is part a polyprotein product</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3660988/</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
