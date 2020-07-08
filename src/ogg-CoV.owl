@@ -352,9 +352,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGG-CoV_0000312 -->
+    <!-- http://purl.obolibrary.org/obo/OGG_CoV_0000312 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OGG-CoV_0000312">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OGG_CoV_0000312">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000241"/>
@@ -362,14 +362,6 @@
         <obo:IAO_0000115>A is a sequence part of gene for B if A is a coding sequence that is expressed by B.</obo:IAO_0000115>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">sequence part of gene</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_CoV0000283 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000283">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
 
@@ -431,6 +423,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_20010239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000016"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_693995"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:creator>Anthony Huffman, Yongqun &quot;Oliver&quot; He</dc:creator>
         <rdfs:label xml:lang="en">gene of coronavirus</rdfs:label>
     </owl:Class>
@@ -1614,6 +1612,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_100010239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000014"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_693995"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_00000117>Anthony Huffman</obo:IAO_00000117>
         <rdfs:label>genome of coronavirus</rdfs:label>
     </owl:Class>
@@ -3105,7 +3109,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000001"/>
         <dc:creator>Anthony Huffman</dc:creator>
-        <rdfs:label xml:lang="en">coronavirus ORF10 SARS-CoV-2 gene</rdfs:label>
+        <rdfs:comment>rdfs:comment &quot;Ortholog based on SARS-CoV-2 ORF10 gene&quot;@en</rdfs:comment>
+        <rdfs:label xml:lang="en">coronavirus ORF10 gene</rdfs:label>
     </owl:Class>
     
 
@@ -3367,7 +3372,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000001"/>
         <dc:creator>Anthony Huffman</dc:creator>
-        <rdfs:label xml:lang="en">coronavirus 4a 229E gene</rdfs:label>
+        <rdfs:comment xml:lang="en">Ortholog based on coronavirus 4a 229E gene</rdfs:comment>
+        <rdfs:label>coronavirus 4a gene</rdfs:label>
     </owl:Class>
     
 
@@ -3377,7 +3383,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000001"/>
         <dc:creator>Anthony Huffman</dc:creator>
-        <rdfs:label xml:lang="en">coronavirus 4b 229E gene</rdfs:label>
+        <rdfs:comment>&quot;Ortholog based on coronavirus 4a 229E gene&quot;</rdfs:comment>
+        <rdfs:label xml:lang="en">coronavirus 4b gene</rdfs:label>
     </owl:Class>
     
 
@@ -3818,6 +3825,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000070"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/KJ614529.1</obo:IAO_0000119>
+        <rdfs:comment>Genebank ID:KJ614529</rdfs:comment>
+        <rdfs:comment>NCBI Gene ID:37616443</rdfs:comment>
+        <rdfs:label>ORF3 of Middle East respiratory syndrome-related coronavirus Human betacoronavirus 2c Jordan-Ne/2012 strain</rdfs:label>
     </owl:Class>
     
 
@@ -4195,13 +4207,35 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGG_CoV0000314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
+        <obo:IAO_00000119>https://www.ncbi.nlm.nih.gov/gene/?term=3200424</obo:IAO_00000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">N2 of Human coronavirus HKU1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_CoV0000315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
+        <rdfs:label xml:lang="en">N2 of Human coronavirus HKU1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGG_CoV0000321 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000321">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000258"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4219,7 +4253,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4237,7 +4271,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4255,7 +4289,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4273,7 +4307,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4291,7 +4325,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000263"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4309,7 +4343,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4327,7 +4361,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4345,7 +4379,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4363,7 +4397,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4381,7 +4415,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4399,7 +4433,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4417,7 +4451,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4435,7 +4469,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4453,7 +4487,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4471,7 +4505,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000258"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4489,7 +4523,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4507,7 +4541,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4525,7 +4559,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4543,7 +4577,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4561,7 +4595,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000263"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4579,7 +4613,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4597,7 +4631,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4615,7 +4649,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4633,7 +4667,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4651,7 +4685,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4669,7 +4703,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4687,7 +4721,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4705,7 +4739,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4723,7 +4757,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4741,7 +4775,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000268"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4759,7 +4793,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000258"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4777,7 +4811,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4795,7 +4829,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4813,7 +4847,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4831,7 +4865,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4849,7 +4883,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000263"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4867,7 +4901,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4885,7 +4919,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4903,7 +4937,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4921,7 +4955,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4939,7 +4973,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000268"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4957,7 +4991,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4975,7 +5009,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4993,7 +5027,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5011,7 +5045,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5029,7 +5063,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5047,7 +5081,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000258"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5065,7 +5099,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5083,7 +5117,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5101,7 +5135,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5119,7 +5153,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5137,7 +5171,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000263"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5155,7 +5189,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5173,7 +5207,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5191,7 +5225,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5209,7 +5243,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5227,7 +5261,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000268"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5245,7 +5279,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5263,7 +5297,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5281,7 +5315,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5299,7 +5333,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5317,7 +5351,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5335,7 +5369,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5353,7 +5387,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5371,7 +5405,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5389,7 +5423,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5407,7 +5441,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5425,7 +5459,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5443,7 +5477,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5461,7 +5495,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5479,7 +5513,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5497,7 +5531,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5515,7 +5549,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5533,7 +5567,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000258"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5551,7 +5585,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5569,7 +5603,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5587,7 +5621,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5605,14 +5639,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Peptiase_C30 from HCoV 229E Reference Strain</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:comment>NCBI Gene ID:12175747</rdfs:comment>
-        <rdfs:label>Peptiase_C30 sequence of HCoV229Egp1 from HCoV 229E Reference Strain</rdfs:label>
+        <rdfs:label>Peptidase_C30 sequence of HCoV229Egp1 from HCoV 229E Reference Strain</rdfs:label>
     </owl:Class>
     
 
@@ -5623,7 +5657,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000263"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5641,7 +5675,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5659,7 +5693,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5677,7 +5711,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5695,7 +5729,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5713,7 +5747,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000268"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5731,7 +5765,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5749,7 +5783,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5767,7 +5801,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5785,7 +5819,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5803,7 +5837,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5821,7 +5855,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5839,7 +5873,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5857,7 +5891,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5875,7 +5909,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5893,7 +5927,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000263"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5911,7 +5945,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5929,7 +5963,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5947,7 +5981,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5965,7 +5999,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5983,7 +6017,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6001,14 +6035,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Corana_NSP4_C from MERS Betacornavirus England 1 strain</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
-        <rdfs:label>Corana_NSP4_C sequence of orf1ab from MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:label>Corona_NSP4_C sequence of orf1ab from MERS Betacornavirus England 1 strain</rdfs:label>
     </owl:Class>
     
 
@@ -6019,14 +6053,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Peptiase_C30 from MERS Betacornavirus England 1 strain</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:comment>NCBI Gene ID:37616440</rdfs:comment>
-        <rdfs:label>Peptiase_C30 sequence of orf1ab from MERS Betacornavirus England 1 strain</rdfs:label>
+        <rdfs:label>Peptidase_C30 sequence of orf1ab from MERS Betacornavirus England 1 strain</rdfs:label>
     </owl:Class>
     
 
@@ -6037,7 +6071,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6055,7 +6089,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6073,7 +6107,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6091,7 +6125,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6109,7 +6143,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6127,7 +6161,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6145,7 +6179,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6163,8 +6197,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp3 from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6180,8 +6214,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Corona_NSP4_C from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6197,8 +6231,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Peptidase_C30 from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6214,8 +6248,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp7 from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6231,8 +6265,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp8 from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6248,8 +6282,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp9 from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6265,8 +6299,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase NSP10 from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6282,8 +6316,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Corona_Rpol_N from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6299,8 +6333,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase DNA2 (replicase) from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6316,8 +6350,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase NSP11 from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6333,8 +6367,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000277"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000281"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase NSP13 from Human betacoronavirus 2c Jordan-N3/2012</obo:IAO_0000115>
@@ -6350,8 +6384,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000258"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Nsp1 from SARS Urbani strain</obo:IAO_0000115>
@@ -6367,7 +6401,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6384,8 +6418,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp3 from SARS Urbani strain</obo:IAO_0000115>
@@ -6401,8 +6435,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Corona_NSP4_C from SARS Urbani strain</obo:IAO_0000115>
@@ -6418,8 +6452,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Peptidase_C30 from SARS Urbani strain</obo:IAO_0000115>
@@ -6435,8 +6469,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp7 from SARS Urbani strain</obo:IAO_0000115>
@@ -6452,8 +6486,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp8 from SARS Urbani strain</obo:IAO_0000115>
@@ -6469,8 +6503,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp9 from SARS Urbani strain</obo:IAO_0000115>
@@ -6486,8 +6520,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase NSP10 from SARS Urbani strain</obo:IAO_0000115>
@@ -6501,6 +6535,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000450">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp11 from SARS Urbani strain</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:label>nsp11 sequence of ORF1ab from SARS Urbani strain</rdfs:label>
@@ -6514,8 +6554,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Corona_Rpol_N from SARS Urbani strain</obo:IAO_0000115>
@@ -6531,8 +6571,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase DNA2 (replicase) from SARS Urbani strain</obo:IAO_0000115>
@@ -6548,8 +6588,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp14 from SARS Urbani strain</obo:IAO_0000115>
@@ -6565,8 +6605,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase NSP11/nsp15 from SARS Urbani strain</obo:IAO_0000115>
@@ -6582,8 +6622,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000276"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000301"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase NSP13/nsp16 from SARS Urbani strain</obo:IAO_0000115>
@@ -6599,7 +6639,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000258"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6617,7 +6657,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6635,7 +6675,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6653,7 +6693,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6671,7 +6711,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6689,7 +6729,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000263"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6707,7 +6747,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6725,7 +6765,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6743,7 +6783,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6761,7 +6801,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6779,7 +6819,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6796,7 +6836,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6813,7 +6853,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6830,7 +6870,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6847,7 +6887,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6865,7 +6905,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000258"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6883,7 +6923,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6901,7 +6941,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6919,7 +6959,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6937,7 +6977,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6955,7 +6995,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000263"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6973,7 +7013,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6991,7 +7031,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7009,7 +7049,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7027,7 +7067,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7045,7 +7085,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7063,7 +7103,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7081,7 +7121,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000268"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7098,7 +7138,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7116,7 +7156,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7134,7 +7174,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000188"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7152,8 +7192,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp3 from MERS 2c EMC/2012 strain</obo:IAO_0000115>
@@ -7169,14 +7209,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000261"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Corana_NSP4_C from MERS 2c EMC/2012 strain</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:comment>NCBI Gene ID:4</rdfs:comment>
-        <rdfs:label>Corana_NSP4_C sequence of ORF 1ab from MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:label>Corona_NSP4_C sequence of ORF 1ab from MERS 2c EMC/2012 strain</rdfs:label>
     </owl:Class>
     
 
@@ -7187,13 +7227,13 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000262"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Peptiase_C30 from MERS 2c EMC/2012 strain</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:label>Peptiase_C30 sequence of ORF 1ab from MERS 2c EMC/2012 strain</rdfs:label>
+        <rdfs:label>Peptidase_C30 sequence of ORF 1ab from MERS 2c EMC/2012 strain</rdfs:label>
     </owl:Class>
     
 
@@ -7204,8 +7244,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp7 from MERS 2c EMC/2012 strain</obo:IAO_0000115>
@@ -7221,8 +7261,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000265"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp8 from MERS 2c EMC/2012 strain</obo:IAO_0000115>
@@ -7238,8 +7278,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000266"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase nsp9 from MERS 2c EMC/2012 strain</obo:IAO_0000115>
@@ -7255,8 +7295,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000267"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase NSP10 from MERS 2c EMC/2012 strain</obo:IAO_0000115>
@@ -7272,8 +7312,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000269"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase Corona_Rpol_N from MERS 2c EMC/2012 strain</obo:IAO_0000115>
@@ -7289,8 +7329,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000270"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase DNA2 (replicase) from MERS 2c EMC/2012 strain</obo:IAO_0000115>
@@ -7306,7 +7346,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000271"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7323,8 +7363,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase NSP11 from MERS 2c EMC/2012 strain</obo:IAO_0000115>
@@ -7340,8 +7380,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG-CoV_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000278"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGG_CoV0000291"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A polypeptide sequence of a coronavirus replicase NSP13 from MERS 2c EMC/2012 strain</obo:IAO_0000115>
@@ -7459,24 +7499,6 @@
     <owl:NamedIndividual rdf:about="http://www.w3.org/2001/XMLSchema#string">
         <rdf:type rdf:resource="http://www.w3.org/20000/01/rdf-schema#Datatype"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGG_CoV0000283">
-        <rdfs:comment>Genebank ID:KJ614529</rdfs:comment>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/nuccore/KJ614529.1</obo:IAO_0000119>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:comment>NCBI Gene ID:37616443</rdfs:comment>
-        <rdfs:label>ORF3 of Middle East respiratory syndrome-related coronavirus Human betacoronavirus 2c Jordan-Ne/2012 strain</rdfs:label>
-    </rdf:Description>
     
 
 
